@@ -1,3 +1,9 @@
+import NonDashboardNavbar from "../components/NonDashboardNavbar";
+
 export default function page() {
-  return <h1 className="text-3xl font-bold">hello world</h1>;
+  return (
+    <div className="nondashboard-layout">
+      <NonDashboardNavbar />
+    </div>
+  );
 }
